@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94600D0127985D8800EFB452 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94600D0027985D8800EFB452 /* HomeView.swift */; };
+		94600D0327985E3900EFB452 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94600D0227985E3900EFB452 /* ProjectsView.swift */; };
 		948B97952792B92100EB34BF /* BerkinPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B97942792B92100EB34BF /* BerkinPortfolioApp.swift */; };
 		948B97972792B92100EB34BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B97962792B92100EB34BF /* ContentView.swift */; };
 		948B97992792B92200EB34BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948B97982792B92200EB34BF /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94600D0027985D8800EFB452 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		94600D0227985E3900EFB452 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		948B97912792B92100EB34BF /* BerkinPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerkinPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948B97942792B92100EB34BF /* BerkinPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerkinPortfolioApp.swift; sourceTree = "<group>"; };
 		948B97962792B92100EB34BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				948B97A7279418DD00EB34BF /* Info.plist */,
 				948B97942792B92100EB34BF /* BerkinPortfolioApp.swift */,
+				94600D0027985D8800EFB452 /* HomeView.swift */,
+				94600D0227985E3900EFB452 /* ProjectsView.swift */,
 				948B97962792B92100EB34BF /* ContentView.swift */,
 				948B97A22792B93100EB34BF /* Main.xcdatamodeld */,
 				948B97A52792BA5800EB34BF /* DataController.swift */,
@@ -145,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94600D0327985E3900EFB452 /* ProjectsView.swift in Sources */,
 				948B97A42792B93100EB34BF /* Main.xcdatamodeld in Sources */,
 				948B97A62792BA5800EB34BF /* DataController.swift in Sources */,
 				948B97972792B92100EB34BF /* ContentView.swift in Sources */,
+				94600D0127985D8800EFB452 /* HomeView.swift in Sources */,
 				948B97952792B92100EB34BF /* BerkinPortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
