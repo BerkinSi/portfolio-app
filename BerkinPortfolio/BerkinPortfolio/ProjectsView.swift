@@ -11,6 +11,9 @@ struct ProjectsView: View {
     let showClosedPorjects: Bool
     let projects: FetchRequest<Project>
     
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
+    
     init(showClosedPorjects: Bool) {
         self.showClosedPorjects = showClosedPorjects
         projects = FetchRequest<Project>(entity: Project.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Project.creationDate, ascending: false)], predicate: NSPredicate(format: "closed = %d", showClosedPorjects))
