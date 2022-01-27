@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942EC0E727A2E6DF00AA999E /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EC0E627A2E6DF00AA999E /* Binding-OnChange.swift */; };
 		9446283A279AC4D300F0E6E8 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94462839279AC4D300F0E6E8 /* EditItemView.swift */; };
 		9446283C279ACA5700F0E6E8 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446283B279ACA5700F0E6E8 /* ItemRowView.swift */; };
 		94600D0127985D8800EFB452 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94600D0027985D8800EFB452 /* HomeView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		942EC0E627A2E6DF00AA999E /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		94462839279AC4D300F0E6E8 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		9446283B279ACA5700F0E6E8 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		94600D0027985D8800EFB452 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				9446283B279ACA5700F0E6E8 /* ItemRowView.swift */,
 				948B97962792B92100EB34BF /* ContentView.swift */,
 				94462839279AC4D300F0E6E8 /* EditItemView.swift */,
+				942EC0E627A2E6DF00AA999E /* Binding-OnChange.swift */,
 				948B97A22792B93100EB34BF /* Main.xcdatamodeld */,
 				948B97A52792BA5800EB34BF /* DataController.swift */,
 				948B97982792B92200EB34BF /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 				948B97A62792BA5800EB34BF /* DataController.swift in Sources */,
 				9446283C279ACA5700F0E6E8 /* ItemRowView.swift in Sources */,
 				948B97972792B92100EB34BF /* ContentView.swift in Sources */,
+				942EC0E727A2E6DF00AA999E /* Binding-OnChange.swift in Sources */,
 				94600D0127985D8800EFB452 /* HomeView.swift in Sources */,
 				948B97952792B92100EB34BF /* BerkinPortfolioApp.swift in Sources */,
 				94600D052799A09200EFB452 /* Item-CoreDataHelpers.swift in Sources */,
